@@ -45,6 +45,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>LinqToJMGJJFact.dbml</DependentUpon>
     </Compile>
+    <Compile Include="LinqToJmwsdt.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LinqToJmwsdt.dbml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
@@ -60,6 +65,11 @@
       <LastGenOutput>LinqToJMGJJFact.designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
+    <None Include="LinqToJmwsdt.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>LinqToJmwsdt.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -71,6 +81,11 @@
   <ItemGroup>
     <None Include="LinqToJMGJJFact.dbml.layout">
       <DependentUpon>LinqToJMGJJFact.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LinqToJmwsdt.dbml.layout">
+      <DependentUpon>LinqToJmwsdt.dbml</DependentUpon>
     </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

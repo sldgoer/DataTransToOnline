@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="DataSource" Class="LinqToJmwsdtDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=19.120.11.76;User ID=jmzjj" SettingsObjectName="QueryFromInternal.Properties.Settings" SettingsPropertyName="DataSourceConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.jmzjj_EX_GDBS_BJ" Member="jmzjj_EX_GDBS_BJs">
+    <Type Name="jmzjj_EX_GDBS_BJ">
+      <Column Name="S_GUID" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="S_STATUS" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="OPERATETYPE" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="SBLSH" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="SXBM" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="BJBMMC" Type="System.String" DbType="VarChar(400)" CanBeNull="true" />
+      <Column Name="BJBMZZJDDM" Type="System.String" DbType="VarChar(9) NOT NULL" CanBeNull="false" />
+      <Column Name="XZQHDM" Type="System.String" DbType="VarChar(12) NOT NULL" CanBeNull="false" />
+      <Column Name="BJJGDM" Type="System.String" DbType="VarChar(2) NOT NULL" CanBeNull="false" />
+      <Column Name="BJJGMS" Type="System.String" DbType="VarChar(2000) NOT NULL" CanBeNull="false" />
+      <Column Name="ZFHTHYY" Type="System.String" DbType="VarChar(2000)" CanBeNull="true" />
+      <Column Name="ZJGZMC" Type="System.String" DbType="VarChar(1000)" CanBeNull="true" />
+      <Column Name="ZJBH" Type="System.String" DbType="VarChar(1000)" CanBeNull="true" />
+      <Column Name="ZJYXQX" Type="System.String" DbType="VarChar(1000)" CanBeNull="true" />
+      <Column Name="FZGZDW" Type="System.String" DbType="VarChar(1000)" CanBeNull="true" />
+      <Column Name="SFJE" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="JEDWDM" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="BJSJ" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="BZ" Type="System.String" DbType="VarChar(2000)" CanBeNull="true" />
+      <Column Name="BYZD" Type="System.String" DbType="VarChar(2000)" CanBeNull="true" />
+      <Column Name="ISHANDLE" Type="System.String" DbType="VarChar(2) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.jmzjj_EX_GDBS_SB" Member="jmzjj_EX_GDBS_SBs">
+    <Type Name="jmzjj_EX_GDBS_SB">
+      <Column Name="S_GUID" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="S_STATUS" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="OPERATETYPE" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="SBLSH" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="SXBM" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="SXMC" Type="System.String" DbType="VarChar(1000) NOT NULL" CanBeNull="false" />
+      <Column Name="FSXBM" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FSXMC" Type="System.String" DbType="VarChar(1000)" CanBeNull="true" />
+      <Column Name="SQRLX" Type="System.String" DbType="VarChar(2) NOT NULL" CanBeNull="false" />
+      <Column Name="SQRMC" Type="System.String" DbType="VarChar(400) NOT NULL" CanBeNull="false" />
+      <Column Name="SQRZJLX" Type="System.String" DbType="VarChar(2)" CanBeNull="true" />
+      <Column Name="SQRZJHM" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="LXRXM" Type="System.String" DbType="VarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="LXRZJLX" Type="System.String" DbType="VarChar(2)" CanBeNull="true" />
+      <Column Name="LXRSFZJHM" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="LXRSJ" Type="System.String" DbType="VarChar(400) NOT NULL" CanBeNull="false" />
+      <Column Name="LXRYX" Type="System.String" DbType="VarChar(400)" CanBeNull="true" />
+      <Column Name="SBXMMC" Type="System.String" DbType="VarChar(2000) NOT NULL" CanBeNull="false" />
+      <Column Name="SBCLQD" Type="System.String" DbType="VarChar(2000) NOT NULL" CanBeNull="false" />
+      <Column Name="TJFS" Type="System.String" DbType="VarChar(2)" CanBeNull="true" />
+      <Column Name="SBHZH" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="SBSJ" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="SBJTWD" Type="System.String" DbType="VarChar(400)" CanBeNull="true" />
+      <Column Name="XZQHDM" Type="System.String" DbType="VarChar(12) NOT NULL" CanBeNull="false" />
+      <Column Name="YSBLSH" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="BZ" Type="System.String" DbType="VarChar(2000)" CanBeNull="true" />
+      <Column Name="BYZD" Type="System.String" DbType="VarChar(2000)" CanBeNull="true" />
+      <Column Name="ISHANDLE" Type="System.String" DbType="VarChar(2) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.jmzjj_EX_GDBS_SL" Member="jmzjj_EX_GDBS_SLs">
+    <Type Name="jmzjj_EX_GDBS_SL">
+      <Column Name="S_GUID" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="S_STATUS" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="OPERATETYPE" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="SBLSH" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="SXBM" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="YWLSH" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="SLBMMC" Type="System.String" DbType="VarChar(400) NOT NULL" CanBeNull="false" />
+      <Column Name="SLBMZZJDDM" Type="System.String" DbType="VarChar(9) NOT NULL" CanBeNull="false" />
+      <Column Name="XZQHDM" Type="System.String" DbType="VarChar(12) NOT NULL" CanBeNull="false" />
+      <Column Name="BLRXM" Type="System.String" DbType="VarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="BLRGH" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="SLZTDM" Type="System.String" DbType="VarChar(2) NOT NULL" CanBeNull="false" />
+      <Column Name="BSLYY" Type="System.String" DbType="VarChar(2000)" CanBeNull="true" />
+      <Column Name="SLHZH" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="SLSJ" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="GXDXZQHDM" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="BZ" Type="System.String" DbType="VarChar(2000)" CanBeNull="true" />
+      <Column Name="BYZD" Type="System.String" DbType="VarChar(2000)" CanBeNull="true" />
+      <Column Name="ISHANDLE" Type="System.String" DbType="VarChar(2) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.jmzjj_EX_GDBS_SPCL" Member="jmzjj_EX_GDBS_SPCLs">
+    <Type Name="jmzjj_EX_GDBS_SPCL">
+      <Column Name="S_GUID" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="S_STATUS" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="OPERATETYPE" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="SBLSH" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="SXBM" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="SPHJDM" Type="System.String" DbType="VarChar(2) NOT NULL" CanBeNull="false" />
+      <Column Name="SPHJMC" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="SPBMMC" Type="System.String" DbType="VarChar(400) NOT NULL" CanBeNull="false" />
+      <Column Name="SPBMZZJDMD" Type="System.String" DbType="VarChar(9) NOT NULL" CanBeNull="false" />
+      <Column Name="XZQHDM" Type="System.String" DbType="VarChar(12) NOT NULL" CanBeNull="false" />
+      <Column Name="SPRXM" Type="System.String" DbType="VarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="SPRZWDM" Type="System.String" DbType="VarChar(5) NOT NULL" CanBeNull="false" />
+      <Column Name="SPRZWMC" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="SPYJ" Type="System.String" DbType="VarChar(2000) NOT NULL" CanBeNull="false" />
+      <Column Name="SPSJ" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="SPHJZTDM" Type="System.String" DbType="VarChar(2) NOT NULL" CanBeNull="false" />
+      <Column Name="BZ" Type="System.String" DbType="VarChar(2000)" CanBeNull="true" />
+      <Column Name="BYZD" Type="System.String" DbType="VarChar(2000)" CanBeNull="true" />
+      <Column Name="ISHANDLE" Type="System.String" DbType="VarChar(2) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>
