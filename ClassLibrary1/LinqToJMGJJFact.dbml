@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="JMGJJFact" Class="LinqToJMGJJFactDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=172.16.10.8;Initial Catalog=JMGJJFact;User ID=sa" SettingsObjectName="QueryFromInternal.Properties.Settings" SettingsPropertyName="JMGJJFactConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.lxb_EX_GDBS_BJ" Method="lxb_EX_GDBS_BJ">
+    <Parameter Name="BeginDate" Parameter="beginDate" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="EndDate" Parameter="endDate" Type="System.DateTime" DbType="DateTime" />
+    <ElementType Name="lxb_EX_GDBS_BJResult">
+      <Column Name="S_GUID" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="SBLSH" Type="System.String" DbType="VarChar(34)" CanBeNull="true" />
+      <Column Name="SXBM" Type="System.String" DbType="VarChar(26) NOT NULL" CanBeNull="false" />
+      <Column Name="BJBMMC" Type="System.String" DbType="VarChar(24) NOT NULL" CanBeNull="false" />
+      <Column Name="BJBMZZJDDM" Type="System.String" DbType="VarChar(9) NOT NULL" CanBeNull="false" />
+      <Column Name="XZQHDM" Type="System.String" DbType="VarChar(6) NOT NULL" CanBeNull="false" />
+      <Column Name="BJJGDM" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="BJJGMS" Type="System.String" DbType="VarChar(8) NOT NULL" CanBeNull="false" />
+      <Column Name="ZFHTHYY" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="ZJGZMC" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="ZJBH" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="ZJYXQX" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="SFJE" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="JEDWDM" Type="System.String" DbType="VarChar(3) NOT NULL" CanBeNull="false" />
+      <Column Name="BJSJ" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="BZ" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="BYZD" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.lxb_EX_GDBS_SB" Method="lxb_EX_GDBS_SB">
+    <Parameter Name="BeginDate" Parameter="beginDate" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="EndDate" Parameter="endDate" Type="System.DateTime" DbType="DateTime" />
+    <ElementType Name="lxb_EX_GDBS_SBResult">
+      <Column Name="S_GUID" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="S_STATUS" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="OPERATETYPE" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="SBLSH" Type="System.String" DbType="VarChar(34)" CanBeNull="true" />
+      <Column Name="SXBM" Type="System.String" DbType="VarChar(26) NOT NULL" CanBeNull="false" />
+      <Column Name="SXMC" Type="System.String" DbType="VarChar(18) NOT NULL" CanBeNull="false" />
+      <Column Name="FSXBM" Type="System.String" DbType="VarChar(26) NOT NULL" CanBeNull="false" />
+      <Column Name="FSXMC" Type="System.String" DbType="VarChar(14) NOT NULL" CanBeNull="false" />
+      <Column Name="SQRLX" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="SQRMC" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="SQRZJLX" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SQRZJHM" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="LXRXM" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="LXRZJLX" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="LXRSFZJHM" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="LXRSJ" Type="System.String" DbType="VarChar(55) NOT NULL" CanBeNull="false" />
+      <Column Name="LXRYX" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="SBXMMC" Type="System.String" DbType="VarChar(18) NOT NULL" CanBeNull="false" />
+      <Column Name="SBCLQD" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="TJFS" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="SBHZH" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SBSJ" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SBJTWD" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="XZQHDM" Type="System.String" DbType="VarChar(6) NOT NULL" CanBeNull="false" />
+      <Column Name="YSBLSH" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="BZ" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="BYZD" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="ISHANDLE" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.lxb_EX_GDBS_SL" Method="lxb_EX_GDBS_SL">
+    <Parameter Name="BeginDate" Parameter="beginDate" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="EndDate" Parameter="endDate" Type="System.DateTime" DbType="DateTime" />
+    <ElementType Name="lxb_EX_GDBS_SLResult">
+      <Column Name="S_GUID" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="SBLSH" Type="System.String" DbType="VarChar(34)" CanBeNull="true" />
+      <Column Name="SXBM" Type="System.String" DbType="VarChar(26) NOT NULL" CanBeNull="false" />
+      <Column Name="YWLSH" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SLBMMC" Type="System.String" DbType="VarChar(24) NOT NULL" CanBeNull="false" />
+      <Column Name="SLBMZZJDDM" Type="System.String" DbType="VarChar(9) NOT NULL" CanBeNull="false" />
+      <Column Name="XZQHDM" Type="System.String" DbType="VarChar(6) NOT NULL" CanBeNull="false" />
+      <Column Name="BLRXM" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="BLRGH" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="SLZTDM" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="BSLYY" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="SLHZH" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="SLSJ" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="GXDXZQHDM" Type="System.String" DbType="VarChar(6) NOT NULL" CanBeNull="false" />
+      <Column Name="BZ" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="BYZD" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="ISHANDLE" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.lxb_EX_GDBS_SPCL" Method="lxb_EX_GDBS_SPCL">
+    <Parameter Name="BeginDate" Parameter="beginDate" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="EndDate" Parameter="endDate" Type="System.DateTime" DbType="DateTime" />
+    <ElementType Name="lxb_EX_GDBS_SPCLResult">
+      <Column Name="S_GUID" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="SBLSH" Type="System.String" DbType="VarChar(34)" CanBeNull="true" />
+      <Column Name="SXBM" Type="System.String" DbType="VarChar(26) NOT NULL" CanBeNull="false" />
+      <Column Name="SPHJDM" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="SPHJMC" Type="System.String" DbType="VarChar(18) NOT NULL" CanBeNull="false" />
+      <Column Name="SPBMMC" Type="System.String" DbType="VarChar(24) NOT NULL" CanBeNull="false" />
+      <Column Name="SPBMZZJDMD" Type="System.String" DbType="VarChar(9) NOT NULL" CanBeNull="false" />
+      <Column Name="XZQHDM" Type="System.String" DbType="VarChar(6) NOT NULL" CanBeNull="false" />
+      <Column Name="SPRXM" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="SPRZWDM" Type="System.String" DbType="VarChar(4) NOT NULL" CanBeNull="false" />
+      <Column Name="SPRZWMC" Type="System.String" DbType="VarChar(12) NOT NULL" CanBeNull="false" />
+      <Column Name="SPYJ" Type="System.String" DbType="VarChar(8) NOT NULL" CanBeNull="false" />
+      <Column Name="SPSJ" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SPHJZTDM" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="BZ" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="BYZD" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="ISHANDLE" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+</Database>
